@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Bluemix-cert
+  host: Bluemix-cert
+  disk_quota: 1024M
+  services:
+  - Bluemix-cert-cloudantNoSQLDB
